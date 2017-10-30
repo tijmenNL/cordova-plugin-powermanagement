@@ -1,13 +1,21 @@
 {
-    "name": "cordova-plugin-powermanagement-orig",
+    "name": "at.gofg.sportscomputer.powermanagement",
     "version": "1.1.2",
     "description": "Plugin for managing the power state (i.e. idle switching) for cordova 3.0+. The original one.",
+    "cordova": {
+	"id": "at.gofg.sportscomputer.powermanagement",
+	"platforms": [
+	    "android",
+	    "ios",
+	    "browser"
+	]
+    },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Viras-/cordova-plugin-powermanagement.git"
+        "url": "https://github.com/tijmenNL/cordova-plugin-powermanagement"
     },
     "author": "Viras-",
     "license": "Apache-2.0",
